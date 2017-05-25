@@ -1,0 +1,41 @@
+.button{
+	-fx-pref-width: 90px;
+	-fx-pref-height: 25px;
+	-fx-background-color: white;
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-scale-x:1.03;
+    -fx-scale-y:1.03;
+    -fx-scale-z:1.03;
+    -fx-text-fill: white;
+    -fx-background-color: black;
+}
+
+.label{
+	-fx-pref-width: 225px;
+	-fx-pref-height: 30px;
+    -fx-text-fill: white;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-focus-color: transparent;
+}
+
+.text-field {
+    -fx-background-insets: 0;
+    -fx-padding: 1 3 1 3;
+    -fx-pref-height: 25px;
+    -fx-background-color: rgba(240,240,240,20);
+    -fx-font-size: 13px;
+}
+
+.pane{
+	-fx-background-color: white;
+}
